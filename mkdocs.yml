@@ -1,0 +1,14 @@
+site_name: 'My Awesome Docs'
+site_description: 'Documentation of my project.'
+
+nav:
+    - Home: index.md
+    - About: about.md
+
+theme:
+    name: 'material'
+
+plugins:
+    - search
+    - git-revision-date-localized:
+        type: 'date'
